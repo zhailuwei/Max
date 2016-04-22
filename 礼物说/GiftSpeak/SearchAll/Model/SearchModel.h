@@ -1,0 +1,19 @@
+//
+//  SearchModel.h
+//  GiftSpeak
+//
+//  Created by dllo on 15/8/27.
+//  Copyright (c) 2015年 蓝鸥科技. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface SearchModel : NSObject
+
+@property (nonatomic, retain) NSNumber *id;
+@property (nonatomic, retain) NSString *banner_image_url;
+@property (nonatomic, retain) NSString *subtitle;
+@property (nonatomic, retain) NSString *title;
+
+
+@end
